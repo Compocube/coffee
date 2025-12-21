@@ -4,30 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Revo Coffee&nbsp;&mdash; Your Personalized Coffee</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
+<body class="bg-page">
 
-<body>
-
-<header>
-
-  <nav>
+<header class="container">
+  <nav class="flex flex-between">
     <div>
       <a href="#">
         <img src="assets/img/LOGO.png" alt="Revo Coffee logo">
       </a>
     </div>
-
-    <div>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">COFFEE</a></li>
-        <li><a href="#">COLOR PHIN</a></li>
-        <li><a href="#">PHIN COMBO</a></li>
-        <li><a href="#">GIFTSET</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-    </div>
-
+    <ul class="flex gap-md list-none">
+      <li><a class="anchor" href="#">HOME</a></li>
+      <li><a class="anchor" href="#coffee-base">COFFEE</a></li>
+      <li><a class="anchor" href="#choose-favorite">COLOR PHIN</a></li>
+      <li><a class="anchor" href="#combo">PHIN COMBO</a></li>
+      <li><a class="anchor" href="#giftset">GIFTSET</a></li>
+      <li><a class="anchor" href="#">CONTACT</a></li>
+    </ul>
     <div>
       <a href="#">
         <img src="assets/icons/shopping-cart-3.png" alt="Shopping cart">
@@ -36,212 +31,172 @@
   </nav>
 
   <section>
-    <h1>Your Personalized Coffee</h1>
+    <h1 class="display-large">YOUR PERSONALIZED COFFEE</h1>
     <img src="assets/img/Banner.png" alt="Revo coffee banner">
   </section>
-
 </header>
 
-<main>
+<main class="container">
 
-<section>
-
-  <header>
-    <h2>Coffee Build Your Base</h2>
-    <p>Your Personalized Coffee</p>
+<!-- Coffee Build Your Base -->
+<section id="coffee-base">
+  <header class="hero">
+    <p class="subtitle">Your Personalized Coffee</p>
+    <h2 class="display-medium">COFFEE BUILD YOUR BASE</h2>
   </header>
-
-  <div>
-
-    <article>
+  <div class="grid1 cols-4 gap-lg">
+    <article class="card1">
       <img src="assets/icons/ic.png" alt="Origin">
-      <h3>Origin</h3>
-      <p>
-        Arabica and Robusta coffee beans that meet international quality standards.
-      </p>
+      <h3 class="title">Origin</h3>
+      <p class="body-text">Arabica and Robusta coffee beans that meet international quality standards.</p>
     </article>
-
-    <article>
+    <article class="card1">
       <img src="assets/icons/ic(2).png" alt="Bean types">
-      <h3>Bean Types</h3>
-      <p>
-        70% of a great cup of coffee comes from the origin and quality of green beans.
-      </p>
+      <h3 class="title">Bean Types</h3>
+      <p class="body-text">70% of a great cup of coffee comes from the origin and quality of green beans.</p>
     </article>
-
-    <article>
+    <article class="card1">
       <img src="assets/icons/ic(1).png" alt="Quality">
-      <h3>Quality</h3>
-      <p>
-        Each coffee bean is the result of intense focus and dedication of coffee artisans.
-      </p>
+      <h3 class="title">Quality</h3>
+      <p class="body-text">Each coffee bean is the result of intense focus and dedication of coffee artisans.</p>
     </article>
-
-    <article>
+    <article class="card1">
       <img src="assets/icons/ic(3).png" alt="Brewing">
-      <h3>Brewing</h3>
-      <p>
-        Coffee beans are transformed through a meticulous and strict roasting process.
-      </p>
+      <h3 class="title">Brewing</h3>
+      <p class="body-text">Coffee beans are transformed through a meticulous and strict roasting process.</p>
     </article>
-
   </div>
 </section>
 
-<section>
-
-  <header>
-    <h2>Choose Your Favorite</h2>
-    <p>Perfect Taste Selection</p>
+<!-- Choose Your Favorite -->
+<section id="choose-favorite">
+  <header class="hero">
+    <p class="subtitle">Perfect Taste Selection</p>
+    <h2 class="display-medium">CHOOSE YOUR FAVORITE</h2>
   </header>
-
-  <div>
-
-    <article>
+  <div class="grid cols-3 gap-lg">
+    <article class="card">
       <img src="assets/img/IMAGE.png" alt="REVO Morning">
-      <h3>REVO Morning</h3>
-      <p>Bitter, sweet aftertaste, floral aroma</p>
-      <p>99.000</p>
-      <button type="button">BUY NOW</button>
+      <p class="price">99.000</p>
+      <h3 class="title">REVO Morning</h3>
+      <p class="description">Bitter, sweet aftertaste, floral aroma</p>
+      <button class="button">BUY NOW</button>
+      <button class="anchor">DETAILS</button>
     </article>
-
-    <article>
+    <article class="card">
       <img src="assets/img/IMAGE(2).png" alt="REVO Everyday">
-      <h3>REVO Everyday</h3>
-      <p>Balanced, bitter finish, chocolate flavor</p>
-      <p>85.000</p>
-      <button type="button">BUY NOW</button>
+      <p class="price">85.000</p>
+      <h3 class="title">REVO Everyday</h3>
+      <p class="description">Balanced, bitter finish, chocolate flavor</p>
+      <button class="button">BUY NOW</button>
+      <button class="anchor">DETAILS</button>
     </article>
-
-    <article>
+    <article class="card">
       <img src="assets/img/IMAGE(1).png" alt="REVO Origin">
-      <h3>REVO Origin</h3>
-      <p>Sweet aftertaste, light bitterness, berry acidity</p>
-      <p>139.000</p>
-      <button type="button">BUY NOW</button>
+      <p class="price">139.000</p>
+      <h3 class="title">REVO Origin</h3>
+      <p class="description">Sweet aftertaste, light bitterness, berry acidity</p>
+      <button class="button">BUY NOW</button>
+      <button class="anchor">DETAILS</button>
     </article>
-
-    <article>
+    <article class="card">
       <img src="assets/img/IMAGE(3).png" alt="REVO Bold">
-      <h3>REVO Bold</h3>
-      <p>Strong, bitter, traditional taste</p>
-      <p>75.000</p>
-      <button type="button">BUY NOW</button>
+      <p class="price">75.000</p>
+      <h3 class="title">REVO Bold</h3>
+      <p class="description">Strong, bitter, traditional taste</p>
+      <button class="button">BUY NOW</button>
+      <button class="anchor">DETAILS</button>
     </article>
-
   </div>
 </section>
 
-<section>
-
-  <header>
-    <h2>Best Gift For Best Friend</h2>
-    <p>Giftset</p>
+<!-- Giftset -->
+<section id="giftset">
+  <header class="hero">
+    <p class="subtitle">Best Gift For Best Friend</p>
+    <h2 class="display-medium">GIFTSET</h2>
   </header>
-
-  <div>
-
+  <div class="grid cols-2 gap-lg">
     <div>
       <img src="assets/img/pr-0018-r.png" alt="Vietnamese Phin Coffee Giftset">
     </div>
-
     <div>
-
-      <p>
+      <p class="title">Vietnamese Phin Coffee Giftset</p>
+      <p class="price">285.000</p>
+      <p class="body-text">
         A perfect gift for coffee lovers. Carefully selected coffee beans,
         roasted with passion and craftsmanship to create a pure coffee experience.
       </p>
-
-      <ul>
+      <ul class="coffee-info">
         <li>
           <img src="assets/icons/IC_coffee.png" alt="Bean type">
-          <span>Bean type:</span>
-          <strong>Fine Robusta Blend</strong>
+          <div class="text">
+            <span>Bean type:</span>
+            <strong>Fine Robusta Blend</strong>
+          </div>
         </li>
-
         <li>
           <img src="assets/icons/IC_Mountain.png" alt="Altitude">
-          <span>Altitude:</span>
-          <strong>700&nbsp;&mdash; 800m</strong>
+          <div class="text">
+            <span>Altitude:</span>
+            <strong>700&nbsp;&mdash; 800m</strong>
+          </div>
         </li>
       </ul>
-
-      <p><strong>Vietnamese Phin Coffee Giftset</strong></p>
-      <p>285.000</p>
-
       <div>
-        <button type="button">BUY NOW</button>
-        <a href="#">DETAILS</a>
+        <button class="button">BUY NOW</button>
+        <button class="anchor">DETAILS</button>
       </div>
-
     </div>
-
   </div>
 </section>
 
-<section>
-
-  <header>
-    <h2>Phin Coffee Combo</h2>
-    <p>Your Personalized Coffee</p>
+<!-- Phin Coffee Combo -->
+<section id="combo">
+  <header class="hero">
+    <p class="subtitle">Your Personalized Coffee</p>
+    <h2 class="display-medium">PHIN COFFEE COMBO</h2>
   </header>
-
-  <div>
-
-    <article>
+  <div class="grid cols-3 gap-lg">
+    <article class="card">
       <img src="assets/img/image(6).png" alt="Combo Revo Bold">
-      <h3>Combo Revo Bold</h3>
-      <p>
-        High caffeine content to keep you alert and focused at work.
-      </p>
-      <p>
-        <strong>147.000</strong>
-        <del>155.000</del>
-      </p>
-      <div>
-        <button type="button">BUY NOW</button>
-        <a href="#">DETAILS</a>
+      <h3 class="title">Combo Revo Bold</h3>
+      <p class="body-text">High caffeine content to keep you alert and focused at work.</p>
+      <div class="price-container">
+        <p class="price"><strong>147.000</strong></p>
+        <p class="delprice"><del>155.000</del></p>
       </div>
+      <button class="button">BUY NOW</button>
+      <button class="anchor">DETAILS</button>
     </article>
-
-    <article>
+    <article class="card">
       <img src="assets/img/image(7).png" alt="Combo Revo Everyday">
-      <h3>Combo Revo Everyday</h3>
-      <p>
-        A perfect blend of Robusta bitterness and rich aroma.
-      </p>
-      <p>
-        <strong>156.000</strong>
-        <del>165.000</del>
-      </p>
-      <div>
-        <button type="button">BUY NOW</button>
-        <a href="#">DETAILS</a>
+      <h3 class="title">Combo Revo Everyday</h3>
+      <p class="body-text">A perfect blend of Robusta bitterness and rich aroma.</p>
+      <div class="price-container">
+        <p class="price"><strong>156.000</strong></p>
+        <p class="delprice"><del>165.000</del></p>
       </div>
+      <button class="button">BUY NOW</button>
+      <button class="anchor">DETAILS</button>
     </article>
-
-    <article>
+    <article class="card">
       <img src="assets/img/image(8).png" alt="Combo Revo Honey">
-      <h3>Combo Revo Honey</h3>
-      <p>
-        Sweet notes derived from the special Arabica honey processing method.
-      </p>
-      <p>
-        <strong>275.000</strong>
-        <del>260.000</del>
-      </p>
-      <div>
-        <button type="button">BUY NOW</button>
-        <a href="#">DETAILS</a>
+      <h3 class="title">Combo Revo Honey</h3>
+      <p class="body-text">Sweet notes derived from the special Arabica honey processing method.</p>
+      <div class="price-container">
+        <p class="price"><strong>275.000</strong></p>
+        <p class="delprice"><del>260.000</del></p>
       </div>
+      <button class="button">BUY NOW</button>
+      <button class="anchor">DETAILS</button>
     </article>
-
   </div>
 </section>
 
 </main>
 
-<footer>
+<footer class="container flex flex-between align-center">
   <p>&copy; Revo Coffee Vietnam&nbsp;&mdash; 2018</p>
 </footer>
 
